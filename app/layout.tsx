@@ -1,5 +1,7 @@
 import './globals.css';
 
+import LenisProvider from '@/components/LenisProvider';
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -20,7 +22,9 @@ export default function RootLayout({
 					rel="stylesheet"
 				/>
 			</head>
-			<body className="antialiased">{children}</body>
+			<LenisProvider>
+				<body className="antialiased">{children}</body>
+			</LenisProvider>
 		</html>
 	);
 }
