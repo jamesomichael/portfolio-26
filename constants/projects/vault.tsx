@@ -1,7 +1,7 @@
 import { IoShieldHalfSharp } from 'react-icons/io5';
 
 export default {
-	name: 'vault',
+	name: 'Vault',
 	isFeatured: true,
 	projectTile: {
 		backgroundGradient: 'from-blue-200 to-blue-300',
