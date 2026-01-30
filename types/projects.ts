@@ -1,11 +1,8 @@
-interface BaseProject {
+export interface Project {
 	name: string;
+	isFeatured?: boolean;
 	projectTile: {
-		backgroundGradient: string;
+		backgroundGradient?: string;
 		logo: React.ReactNode;
 	};
 }
-
-export type Project =
-	| (BaseProject & { isFeatured: false })
-	| (BaseProject & { isFeatured: true });
