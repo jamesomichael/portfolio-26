@@ -1,6 +1,7 @@
 import './globals.css';
 
 import LenisProvider from '@/components/LenisProvider';
+import Footer from '@/components/Footer';
 
 import type { Metadata } from 'next';
 
@@ -24,7 +25,10 @@ export default function RootLayout({
 				/>
 			</head>
 			<LenisProvider>
-				<body className="antialiased">{children}</body>
+				<body className="antialiased">
+					{children}
+					<Footer />
+				</body>
 			</LenisProvider>
 		</html>
 	);
