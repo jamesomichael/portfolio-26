@@ -1,4 +1,4 @@
-import FeaturedProjectItem from '../FeaturedProjectItem';
+import FeaturedProjectTile from '../FeaturedProjectTile';
 
 import type { Project } from '@/types/projects';
 
@@ -10,7 +10,7 @@ const FeaturedProjectsGrid = ({
 	return (
 		<div className="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-4">
 			{projects.map(([key, project]) => (
-				<FeaturedProjectItem
+				<FeaturedProjectTile
 					key={key}
 					projectKey={key}
 					logo={project.projectTile.logo}

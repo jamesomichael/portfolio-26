@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const FeaturedProjectItem = ({
+const FeaturedProjectTile = ({
 	projectKey,
 	logo,
 	backgroundGradient = 'from-slate-500 to-slate-700',
@@ -25,4 +25,4 @@ const FeaturedProjectItem = ({
 	);
 };
 
-export default FeaturedProjectItem;
+export default FeaturedProjectTile;
