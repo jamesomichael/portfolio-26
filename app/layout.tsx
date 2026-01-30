@@ -19,7 +19,7 @@ export default function RootLayout({
 		<html lang="en">
 			<head>
 				<link
-					href="https://fonts.googleapis.com/css2?family=Georama:ital,wdth,wght@0,62.5..150,100..900;1,62.5..150,100..900&family=Unbounded:wght@200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wdth,wght@0,75..125,200..900;1,75..125,200..900&display=swap"
+					href="https://fonts.googleapis.com/css2?family=Georama:ital,wdth,wght@0,62.5..150,100..900;1,62.5..150,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Unbounded:wght@200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wdth,wght@0,75..125,200..900;1,75..125,200..900&display=swap"
 					rel="stylesheet"
 				/>
 			</head>
