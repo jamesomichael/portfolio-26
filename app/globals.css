@@ -1,15 +1,15 @@
 @import 'tailwindcss';
 
 @theme inline {
-	--font-hubot: 'Hubot Sans';
+	--font-hubot: 'Hubot Sans', sans-serif;
 	--font-montserrat: 'Montserrat';
 	--font-caprasimo: 'Caprasimo';
-	--font-unbounded: 'Unbounded';
+	--font-unbounded: 'Unbounded', sans-serif;
 	--font-quicksand: 'Quicksand';
 	--font-handjet: 'Handjet';
-	--font-poppins: 'Poppins';
+	--font-poppins: 'Poppins', sans-serif;
 	--font-inter: 'Inter';
-	--font-roboto: 'Roboto Flex';
+	--font-roboto: 'Roboto Flex', sans-serif;
 	--font-georama: 'Georama', sans-serif;
 	--font-zalando: 'Zalando Sans', sans-serif;
 	--font-urbanist: 'Urbanist', sans-serif;
