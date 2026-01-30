@@ -18,7 +18,7 @@ const Section = ({
 }) => {
 	return (
 		<section className={`min-h-fit ${colourMap[background]} ${className}`}>
-			<div className="max-w-5xl mx-auto px-6 sm:px-8">
+			<div className="max-w-7xl mx-auto px-6 sm:px-8">
 				{title && (
 					<div className="h-24 sm:h-32 flex items-center">
 						<StretchText
@@ -28,7 +28,9 @@ const Section = ({
 						/>
 					</div>
 				)}
-				<div className={`flex flex-col gap-8 ${title ? 'py-20' : ''}`}>
+				<div
+					className={`flex flex-col gap-8 ${title ? 'pt-2 pb-20' : ''}`}
+				>
 					{children}
 				</div>
 			</div>
