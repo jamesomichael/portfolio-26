@@ -2,6 +2,8 @@ import Marquee from 'react-fast-marquee';
 
 import skillsMap from '../../constants/skills';
 
+import Skill from '../Skill';
+
 const SkillsMarquee = () => {
 	const skills = Object.values(skillsMap);
 	return (
@@ -16,19 +18,14 @@ const SkillsMarquee = () => {
 						speed={65 - (i + 1) * 5}
 						className="flex justify-start overflow-hidden w-full will-change-transform"
 					>
-						{array.map((item, j) => {
+						{array.map(({ icon, name, gradientTo }, j) => {
 							return (
-								<div
-									key={j}
-									className="grid grid-cols-[auto_1fr] mx-2.5 gap-3 sm:mx-4 sm:gap-4 items-center justify-center px-4 py-3 sm:px-5 sm:py-4 bg-slate-950 rounded will-change-transform"
-								>
-									<div className="w-9 h-9 sm:w-12 sm:h-12 flex items-center justify-center">
-										{item.icon}
-									</div>
-									<span className="font-georama font-bold font-stretch-125% text-neutral-300 sm:text-xl">
-										{item.name}
-									</span>
-								</div>
+								<Skill
+									key={`${j}_name`}
+									icon={icon}
+									name={name}
+									gradientTo={gradientTo}
+								/>
 							);
 						})}
 					</Marquee>
