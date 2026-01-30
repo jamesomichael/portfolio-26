@@ -5,18 +5,18 @@ const FeaturedProjectItem = ({
 	projectKey,
 	name,
 	logo,
-	backgroundGradient,
+	backgroundGradient = 'from-slate-500 to-slate-700',
 }: {
 	projectKey: string;
 	name: string;
 	logo: React.ReactNode;
-	backgroundGradient: string;
+	backgroundGradient?: string;
 }) => {
 	return (
 		<Link
 			href={`/projects/${projectKey}`}
 			title={name}
-			className="relative overflow-hidden group h-28 sm:h-32 md:h-36 lg:h-40 bg-slate-900 flex justify-center items-center rounded-xl"
+			className="relative overflow-hidden group h-28 sm:h-32 md:h-36 lg:h-40 bg-slate-800 flex justify-center items-center rounded-xl"
 		>
 			<div
 				className={`rounded-xl absolute inset-0 w-0 bg-linear-to-br ${backgroundGradient} transition-all duration-300 ease-in-out group-hover:w-full`}
