@@ -1,6 +1,6 @@
 import projects from '@/constants/projects';
 
-import Section from '../../Section';
+import Section from '../../../shared/Section';
 import FeaturedProjectsGrid from '../FeaturedProjectsGrid';
 import OtherProjectsGrid from '../OtherProjectsGrid';
 

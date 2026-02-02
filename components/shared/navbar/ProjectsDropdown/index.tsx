@@ -1,4 +1,4 @@
-import projects from '../../../constants/projects';
+import projects from '../../../../constants/projects';
 
 import ProjectLink from '../ProjectLink';
 

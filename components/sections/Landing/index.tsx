@@ -1,6 +1,6 @@
 'use client';
-import Section from '../Section';
-import StretchText from '../StretchText';
+import Section from '../../shared/Section';
+import StretchText from '../../shared/StretchText';
 
 const Landing = () => {
 	return (

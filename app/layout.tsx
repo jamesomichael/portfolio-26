@@ -1,7 +1,7 @@
 import './globals.css';
 
-import LenisProvider from '@/components/LenisProvider';
-import Footer from '@/components/Footer';
+import LenisProvider from '@/components/shared/LenisProvider';
+import Footer from '@/components/shared/Footer';
 
 import type { Metadata } from 'next';
 

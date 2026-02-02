@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import { MdMail } from 'react-icons/md';
 
-import Section from '../Section';
+import Section from '../../shared/Section';
 
 const Greeting = () => {
 	return (

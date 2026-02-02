@@ -1,6 +1,6 @@
 import projects from '../../../constants/projects';
 
-import Navbar from '@/components/navbar/Navbar';
+import Navbar from '@/components/shared/navbar/Navbar';
 
 export async function generateMetadata({
 	params,

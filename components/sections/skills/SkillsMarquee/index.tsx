@@ -1,6 +1,6 @@
 import Marquee from 'react-fast-marquee';
 
-import skillsMap from '../../constants/skills';
+import skillsMap from '../../../../constants/skills';
 
 import Skill from '../Skill';
 
