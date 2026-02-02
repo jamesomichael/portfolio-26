@@ -12,7 +12,7 @@ interface ProjectBranding {
 	};
 }
 
-interface ExternalLink {
+export interface ExternalLink {
 	type: 'website' | 'github' | 'storybook';
 	url: string;
 }
