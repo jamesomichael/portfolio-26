@@ -12,6 +12,14 @@ export default {
 			</span>
 		),
 	},
+	navbarDropdown: {
+		logo: (
+			<span className="font-unbounded font-black text-2xl">
+				music
+				<span className="font-extralight">mate</span>
+			</span>
+		),
+	},
 	images: [
 		'/projects/musicmate/login-cropped.jpg',
 		'/projects/musicmate/album-arctic-monkeys.jpg',

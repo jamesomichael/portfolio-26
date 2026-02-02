@@ -12,4 +12,12 @@ export default {
 			</div>
 		),
 	},
+	navbarDropdown: {
+		logo: (
+			<div className="flex items-center gap-2 text-3xl">
+				<IoShieldHalfSharp />
+				<span className="font-hubot">Vault</span>
+			</div>
+		),
+	},
 };

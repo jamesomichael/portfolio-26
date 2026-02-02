@@ -8,4 +8,12 @@ export default {
 			</span>
 		),
 	},
+	navbarDropdown: {
+		logo: (
+			<span className="font-georama font-stretch-150% font-extrabold text-2xl">
+				Portfolio
+				<span className="font-urbanist font-light"> &apos;26</span>
+			</span>
+		),
+	},
 };

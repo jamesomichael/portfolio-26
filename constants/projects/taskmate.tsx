@@ -10,4 +10,12 @@ export default {
 			</span>
 		),
 	},
+	navbarDropdown: {
+		logo: (
+			<span className="font-unbounded font-black text-2xl">
+				task
+				<span className="font-extralight">mate</span>
+			</span>
+		),
+	},
 };
