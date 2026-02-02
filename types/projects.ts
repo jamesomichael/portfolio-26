@@ -5,4 +5,7 @@ export interface Project {
 		backgroundGradient?: string;
 		logo: React.ReactNode;
 	};
+	navbarDropdown: {
+		logo: React.ReactNode;
+	};
 }
