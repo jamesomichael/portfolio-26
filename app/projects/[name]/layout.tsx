@@ -19,7 +19,7 @@ export async function generateMetadata({
 
 export default function Layout({ children }: { children: React.ReactNode }) {
 	return (
-		<div className="h-screen bg-slate-950">
+		<div className="min-h-screen bg-slate-950">
 			<Navbar />
 			<div className="h-full pt-12">{children}</div>
 		</div>
