@@ -15,7 +15,7 @@ const ProjectsDropdown = () => {
 						<ProjectLink
 							key={key}
 							projectKey={key}
-							logo={project.navbarDropdown.logo}
+							logo={project.branding.navbarDropdown.logo}
 						/>
 					);
 				})}

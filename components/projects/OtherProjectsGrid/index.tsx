@@ -9,7 +9,7 @@ const OtherProjectsGrid = ({ projects }: { projects: [string, Project][] }) => {
 				<ProjectTile
 					key={key}
 					projectKey={key}
-					logo={project.projectTile.logo}
+					logo={project.branding.projectTile.logo}
 					isHero={idx === 0}
 				/>
 			))}

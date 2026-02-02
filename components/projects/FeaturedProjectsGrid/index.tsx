@@ -13,8 +13,10 @@ const FeaturedProjectsGrid = ({
 				<FeaturedProjectTile
 					key={key}
 					projectKey={key}
-					logo={project.projectTile.logo}
-					backgroundGradient={project.projectTile.backgroundGradient}
+					logo={project.branding.projectTile.logo}
+					backgroundGradient={
+						project.branding.projectTile.backgroundGradient
+					}
 				/>
 			))}
 		</div>
