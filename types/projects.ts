@@ -12,9 +12,12 @@ interface ProjectBranding {
 	};
 }
 
-export interface ExternalLink {
-	type: 'website' | 'github' | 'storybook';
+export type ProjectExternalLinkType = 'website' | 'github' | 'storybook';
+
+export interface ProjectExternalLink {
+	type: ProjectExternalLinkType;
 	url: string;
+	label?: string;
 }
 
 interface ProjectMedia {
@@ -30,6 +33,6 @@ export interface Project {
 	branding: ProjectBranding;
 	headline: string;
 	description?: string;
-	externalLinks: ExternalLink[];
+	externalLinks: ProjectExternalLink[];
 	media?: ProjectMedia;
 }
