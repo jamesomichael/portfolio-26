@@ -1,12 +1,11 @@
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 import { IoArrowBack } from 'react-icons/io5';
 
 import ProjectsDropdown from '../ProjectsDropdown';
+import NavbarLogo from '../NavbarLogo';
 
 import useNavbar from '@/hooks/useNavbar';
-import NavbarLogo from '../NavbarLogo';
 
 const Navbar = () => {
 	const router = useRouter();
