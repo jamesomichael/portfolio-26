@@ -13,7 +13,7 @@ const Navbar = () => {
 	const showNavbar = useNavbar();
 	return (
 		<div
-			className={`grid fixed top-0 left-0 right-0 z-50 border-b-2 border-slate-900/50 bg-slate-950 h-12 grid-cols-3 px-6 transform transition-transform duration-300 ${
+			className={`grid fixed top-0 left-0 right-0 z-50 border-b-2 border-slate-900/50 bg-slate-950 h-12 grid-cols-3 px-4 sm:px-6 transform transition-transform duration-300 ${
 				showNavbar ? 'translate-y-0' : '-translate-y-full'
 			}`}
 		>
