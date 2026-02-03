@@ -17,3 +17,29 @@
 	--color-spotify-green: #1ed760;
 	--color-spotify-black: #121212;
 }
+
+.image-gallery-bullets {
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	padding: 0 12px;
+}
+
+.image-gallery-bullets::-webkit-scrollbar {
+	display: none;
+}
+
+.image-gallery-bullets {
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	padding: 0 12px;
+
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+}
+
+.image-gallery-bullet {
+	flex: 0 0 auto;
+}
