@@ -20,11 +20,13 @@ export interface ProjectExternalLink {
 	label?: string;
 }
 
+export interface ProjectImages {
+	desktop?: string[];
+	mobile?: string[];
+}
+
 interface ProjectMedia {
-	images?: {
-		desktop?: string[];
-		mobile?: string[];
-	};
+	images?: ProjectImages;
 }
 
 export interface Project {
