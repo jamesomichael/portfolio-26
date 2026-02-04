@@ -16,6 +16,20 @@
 
 	--color-spotify-green: #1ed760;
 	--color-spotify-black: #121212;
+
+	--animate-slide-out: slide-out 1s ease-in-out infinite;
+
+	@keyframes slide-out {
+		0% {
+			transform: translateX(-125%);
+		}
+		75% {
+			transform: translateX(300%);
+		}
+		100% {
+			transform: translateX(-125%);
+		}
+	}
 }
 
 .image-gallery-bullets::-webkit-scrollbar {
