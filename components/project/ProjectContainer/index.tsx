@@ -37,7 +37,7 @@ const ProjectContainer = ({
 					{allImages.length > 0 && (
 						<ImageGallery images={allImages} />
 					)}
-					<div className="grid md:grid-cols-[auto_1fr] gap-4 xl:gap-6">
+					<div className="grid md:grid-cols-[auto_1fr] gap-6">
 						<ExternalLinks links={externalLinks} />
 						<ProjectContent
 							headline={headline}
