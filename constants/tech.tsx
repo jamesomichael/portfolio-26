@@ -12,7 +12,7 @@ const techMap: Record<
 				className="w-20 sm:w-24"
 			/>
 		),
-		gradientTo: 'to-white/40',
+		gradientTo: 'to-white/35',
 	},
 	'Tailwind CSS': {
 		icon: (
@@ -45,13 +45,7 @@ const techMap: Record<
 		gradientTo: 'to-[#443E38]',
 	},
 	GSAP: {
-		icon: (
-			<img
-				src="/tech/gsap-white.svg"
-				alt="GSAP"
-				className="w-28 sm:w-32"
-			/>
-		),
+		icon: <img src="/tech/gsap.svg" alt="GSAP" className="w-28 sm:w-32" />,
 		gradientTo: 'to-[#0AE448]/40',
 	},
 	Lenis: {
