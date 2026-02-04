@@ -1,4 +1,6 @@
-export default {
+import type { Project } from '@/types/projects';
+
+const mediamate: Project = {
 	name: 'mediamate',
 	branding: {
 		projectPage: {
@@ -70,3 +72,5 @@ export default {
 		'yt-dlp',
 	],
 };
+
+export default mediamate;

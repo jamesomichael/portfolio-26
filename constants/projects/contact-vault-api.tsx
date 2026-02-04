@@ -1,4 +1,6 @@
-export default {
+import type { Project } from '@/types/projects';
+
+const contactVaultAPI: Project = {
 	name: 'Contact Vault API',
 	branding: {
 		projectPage: {
@@ -86,3 +88,5 @@ export default {
 		'Docker',
 	],
 };
+
+export default contactVaultAPI;

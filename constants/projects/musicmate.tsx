@@ -1,6 +1,8 @@
 import { GoAlertFill } from 'react-icons/go';
 
-export default {
+import type { Project } from '@/types/projects';
+
+const musicmate: Project = {
 	name: 'musicmate',
 	isFeatured: true,
 	branding: {
@@ -144,3 +146,5 @@ export default {
 		},
 	},
 };
+
+export default musicmate;

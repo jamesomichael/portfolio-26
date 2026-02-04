@@ -36,8 +36,8 @@ export interface Project {
 	isFeatured?: boolean;
 	branding: ProjectBranding;
 	headline: string;
-	description?: string;
-	externalLinks: ProjectExternalLink[];
+	description?: React.ReactNode;
+	externalLinks?: ProjectExternalLink[];
 	techStack?: TechName[];
 	media?: ProjectMedia;
 }

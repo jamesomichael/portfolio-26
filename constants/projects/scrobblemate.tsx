@@ -1,4 +1,6 @@
-export default {
+import type { Project } from '@/types/projects';
+
+const scrobblemate: Project = {
 	name: 'scrobblemate',
 	branding: {
 		projectPage: {
@@ -62,3 +64,5 @@ export default {
 		},
 	},
 };
+
+export default scrobblemate;

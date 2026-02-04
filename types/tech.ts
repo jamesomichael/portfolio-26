@@ -26,4 +26,10 @@ export type TechName =
 	| 'Storybook'
 	| 'Celebrate (Joi)'
 	| 'Spotify Web API'
-	| 'Spotify Web Playback SDK';
+	| 'Spotify Web Playback SDK'
+	| 'React Infinite Scroller'
+	| 'better-sqlite3'
+	| 'AES-GCM'
+	| 'PBKDF2'
+	| 'Argon2id'
+	| 'bcrypt.js';

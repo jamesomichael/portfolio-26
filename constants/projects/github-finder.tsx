@@ -1,6 +1,8 @@
 import { FaGithub } from 'react-icons/fa';
 
-export default {
+import type { Project } from '@/types/projects';
+
+const githubFinder: Project = {
 	name: 'GitHub Finder',
 	branding: {
 		projectPage: {
@@ -90,3 +92,5 @@ export default {
 		},
 	},
 };
+
+export default githubFinder;

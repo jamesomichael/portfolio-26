@@ -1,4 +1,6 @@
-export default {
+import type { Project } from '@/types/projects';
+
+const portfolio: Project = {
 	name: "Portfolio '26",
 	branding: {
 		projectPage: {
@@ -46,3 +48,5 @@ export default {
 	),
 	techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Lenis', 'GSAP'],
 };
+
+export default portfolio;

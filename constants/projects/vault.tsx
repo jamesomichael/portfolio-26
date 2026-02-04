@@ -1,6 +1,8 @@
 import { IoShieldHalfSharp } from 'react-icons/io5';
 
-export default {
+import type { Project } from '@/types/projects';
+
+const vault: Project = {
 	name: 'Vault',
 	isFeatured: true,
 	branding: {
@@ -147,3 +149,5 @@ export default {
 		},
 	},
 };
+
+export default vault;

@@ -1,4 +1,6 @@
-export default {
+import type { Project } from '@/types/projects';
+
+const taskmate: Project = {
 	name: 'taskmate',
 	isFeatured: true,
 	branding: {
@@ -85,3 +87,5 @@ export default {
 		},
 	},
 };
+
+export default taskmate;
