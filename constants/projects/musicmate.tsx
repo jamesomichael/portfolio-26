@@ -68,27 +68,40 @@ export default {
 	externalLinks: [
 		{
 			type: 'website',
-			url: '',
+			url: 'https://musicmate.jamesmichael.dev',
 		},
 		{
 			type: 'github',
-			url: '',
+			url: 'https://github.com/jamesomichael/musicmate-enhanced',
 		},
 		{
 			type: 'storybook',
-			url: '',
+			url: 'https://jamesomichael.github.io/musicmate-enhanced',
 		},
+	],
+	techStack: [
+		'Next.js',
+		'Redux Toolkit',
+		'TypeScript',
+		'Tailwind CSS',
+		'Motion',
+		'React Infinite Scroller',
+		'Spotify Web API',
+		'Spotify Web Playback SDK',
+		'Storybook',
+		'React Testing Library',
+		'Jest',
 	],
 	media: {
 		images: {
 			desktop: [
+				'/projects/musicmate/artist-fontaines-dc.jpg',
 				'/projects/musicmate/login-cropped.jpg',
 				'/projects/musicmate/album-arctic-monkeys.jpg',
 				'/projects/musicmate/album-fontaines-dc.jpg',
 				'/projects/musicmate/single-jungle.jpg',
 				// '/projects/musicmate/artist-beatles.jpg',
 				'/projects/musicmate/artist-expanded-black-keys.jpg',
-				'/projects/musicmate/artist-fontaines-dc.jpg',
 				'/projects/musicmate/artist-gorillaz.jpg',
 				'/projects/musicmate/artist-kendrick.jpg',
 				// '/projects/musicmate/artist-qotsa.jpg',
