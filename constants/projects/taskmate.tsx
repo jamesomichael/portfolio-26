@@ -69,18 +69,18 @@ export default {
 	media: {
 		images: {
 			desktop: [
-				'/taskmate/login.jpg',
-				'/taskmate/home.jpg',
-				'/taskmate/board.jpg',
-				'/taskmate/card.jpg',
-				'/taskmate/settings.jpg',
+				'/projects/taskmate/board.jpg',
+				'/projects/taskmate/login.jpg',
+				'/projects/taskmate/home.jpg',
+				'/projects/taskmate/card.jpg',
+				'/projects/taskmate/settings.jpg',
 			],
 			mobile: [
-				'/taskmate/login_mob.jpg',
-				'/taskmate/home_mob.jpg',
-				'/taskmate/board_mob.jpg',
-				'/taskmate/card_mob.jpg',
-				'/taskmate/settings_mob.jpg',
+				'/projects/taskmate/login_mob.jpg',
+				'/projects/taskmate/home_mob.jpg',
+				'/projects/taskmate/board_mob.jpg',
+				'/projects/taskmate/card_mob.jpg',
+				'/projects/taskmate/settings_mob.jpg',
 			],
 		},
 	},

@@ -51,13 +51,13 @@ export default {
 	media: {
 		images: {
 			desktop: [
-				'/scrobblemate/login.jpg',
-				'/scrobblemate/home.jpg',
-				'/scrobblemate/home-3.jpg',
+				'/projects/scrobblemate/home-3.jpg',
+				'/projects/scrobblemate/login.jpg',
+				'/projects/scrobblemate/home.jpg',
 			],
 			mobile: [
-				'/scrobblemate/home_mob.jpg',
-				'/scrobblemate/home-2_mob.jpg',
+				'/projects/scrobblemate/home_mob.jpg',
+				'/projects/scrobblemate/home-2_mob.jpg',
 			],
 		},
 	},

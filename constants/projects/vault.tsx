@@ -131,18 +131,18 @@ export default {
 	media: {
 		images: {
 			desktop: [
-				'/vault/new-user.png',
-				'/vault/create-user-form.png',
-				'/vault/user-selection-1.png',
-				'/vault/locked.png',
-				'/vault/home.png',
-				'/vault/create-item-form.png',
-				'/vault/create-generator.png',
-				'/vault/vault-items.png',
-				'/vault/user-selection-2.png',
-				'/vault/generator.png',
-				// '/vault/favourites.png',
-				// '/vault/search.png',]
+				'/projects/vault/vault-items.png',
+				'/projects/vault/new-user.png',
+				'/projects/vault/create-user-form.png',
+				'/projects/vault/user-selection-1.png',
+				'/projects/vault/locked.png',
+				'/projects/vault/home.png',
+				'/projects/vault/create-item-form.png',
+				'/projects/vault/create-generator.png',
+				'/projects/vault/user-selection-2.png',
+				'/projects/vault/generator.png',
+				// '/projects/vault/favourites.png',
+				// '/projects/vault/search.png',]
 			],
 		},
 	},

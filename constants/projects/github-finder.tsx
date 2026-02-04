@@ -76,17 +76,17 @@ export default {
 	media: {
 		images: {
 			desktop: [
-				'/github-finder/home.jpg',
-				'/github-finder/search.jpg',
-				'/github-finder/user.jpg',
-				'/github-finder/user-light.jpg',
+				'/projects/github-finder/user-light.jpg',
+				'/projects/github-finder/user.jpg',
+				'/projects/github-finder/home.jpg',
+				'/projects/github-finder/search.jpg',
+			],
+			mobile: [
+				'/projects/github-finder/home_mob.jpg',
+				'/projects/github-finder/search_mob.jpg',
+				'/projects/github-finder/user_mob.jpg',
+				'/projects/github-finder/user-light_mob.jpg',
 			],
 		},
-		mobile: [
-			'/github-finder/home_mob.jpg',
-			'/github-finder/search_mob.jpg',
-			'/github-finder/user_mob.jpg',
-			'/github-finder/user-light_mob.jpg',
-		],
 	},
 };
