@@ -25,6 +25,7 @@ const ProjectContainer = ({
 	techStack?: TechName[];
 	images?: ProjectImages;
 }) => {
+	const allImages = [...(images.desktop ?? []), ...(images.mobile ?? [])];
 	return (
 		<>
 			<div
@@ -33,12 +34,9 @@ const ProjectContainer = ({
 				<div className="absolute inset-0 bg-black/80"></div>
 				<div className="relative z-40 max-w-7xl mx-auto py-3 sm:py-4 px-4 sm:px-6 flex flex-col gap-4">
 					<div className="py-4">{logo}</div>
-					<ImageGallery
-						images={[
-							...(images.desktop ?? []),
-							...(images.mobile ?? []),
-						]}
-					/>
+					{allImages.length > 0 && (
+						<ImageGallery images={allImages} />
+					)}
 					<div className="grid md:grid-cols-[auto_1fr] gap-4 xl:gap-6">
 						<ExternalLinks links={externalLinks} />
 						<ProjectContent
