@@ -1,6 +1,9 @@
 import type { TechName } from '@/types/tech';
 
-const techMap: Record<TechName, { icon: React.ReactNode }> = {
+const techMap: Record<
+	TechName,
+	{ icon: React.ReactNode; gradientTo?: string }
+> = {
 	'Next.js': {
 		icon: (
 			<img
@@ -9,6 +12,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-white/40',
 	},
 	'Tailwind CSS': {
 		icon: (
@@ -18,6 +22,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-[#38BDF8]/50',
 	},
 	Supabase: {
 		icon: (
@@ -27,6 +32,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-16 sm:w-20"
 			/>
 		),
+		gradientTo: 'to-[#3ECF8E]/45',
 	},
 	Zustand: {
 		icon: (
@@ -36,6 +42,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-[#443E38]',
 	},
 	GSAP: {
 		icon: (
@@ -45,11 +52,13 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-28 sm:w-32"
 			/>
 		),
+		gradientTo: 'to-[#0AE448]/40',
 	},
 	Lenis: {
 		icon: (
 			<img src="/tech/lenis.svg" alt="Lenis" className="w-18 sm:w-20" />
 		),
+		gradientTo: 'to-[#FF98A2]/50',
 	},
 	'Node.js': {
 		icon: (
@@ -59,6 +68,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-18 sm:w-20"
 			/>
 		),
+		gradientTo: 'to-[#417E38]/55',
 	},
 	Express: {
 		icon: (
@@ -68,16 +78,19 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-neutral-100/30',
 	},
 	React: {
 		icon: (
 			<img src="/tech/react.svg" alt="React" className="w-20 sm:w-24" />
 		),
+		gradientTo: 'to-[#58C4DC]/45',
 	},
 	SQLite: {
 		icon: (
 			<img src="/tech/sqlite.svg" alt="SQLite" className="w-20 sm:w-24" />
 		),
+		gradientTo: 'to-[#399BD9]/45',
 	},
 	'dnd kit': {
 		icon: (
@@ -87,16 +100,19 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-neutral-300/30',
 	},
 	Motion: {
 		icon: (
 			<img src="/tech/motion.png" alt="Motion" className="w-20 sm:w-24" />
 		),
+		gradientTo: 'to-[#FEF62A]/40',
 	},
 	'yt-dlp': {
 		icon: (
 			<img src="/tech/yt-dlp.png" alt="yt-dlp" className="w-20 sm:w-24" />
 		),
+		gradientTo: 'to-[#FF0000]/35',
 	},
 	TypeScript: {
 		icon: (
@@ -106,6 +122,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-18 sm:w-20"
 			/>
 		),
+		gradientTo: 'to-[#3178C6]/50',
 	},
 	MongoDB: {
 		icon: (
@@ -115,6 +132,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="h-20 sm:h-20"
 			/>
 		),
+		gradientTo: 'to-[#00ED64]/40',
 	},
 	Jest: {
 		icon: (
@@ -124,11 +142,13 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-[4.8rem] sm:w-[5.5rem]"
 			/>
 		),
+		gradientTo: 'to-[#99424F]/60',
 	},
 	JWT: {
 		icon: (
 			<img src="/tech/jwt.svg" alt="JWT" className="w-20 sm:w-[5.5rem]" />
 		),
+		gradientTo: 'to-neutral-200/35',
 	},
 	Mongoose: {
 		icon: (
@@ -138,6 +158,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-28"
 			/>
 		),
+		gradientTo: 'to-[#850000]/60',
 	},
 	OpenAPI: {
 		icon: (
@@ -147,6 +168,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-[#68A338]/50',
 	},
 	'Swagger UI': {
 		icon: (
@@ -156,6 +178,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-[#85EA2D]/45',
 	},
 	Docker: {
 		icon: (
@@ -165,6 +188,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-[6rem]"
 			/>
 		),
+		gradientTo: 'to-[#1D63ED]/45',
 	},
 	'Redux Toolkit': {
 		icon: (
@@ -174,6 +198,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-[5.5rem]"
 			/>
 		),
+		gradientTo: 'to-[#764ABC]/60',
 	},
 	'React Testing Library': {
 		icon: (
@@ -183,6 +208,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-[4.75rem] sm:w-[5.25rem]"
 			/>
 		),
+		gradientTo: 'to-[#E33332]/50',
 	},
 	Electron: {
 		icon: (
@@ -192,6 +218,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-24 sm:w-[7rem]"
 			/>
 		),
+		gradientTo: 'to-[#47848F]/50',
 	},
 	Storybook: {
 		icon: (
@@ -201,6 +228,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-16 sm:w-[4.5rem]"
 			/>
 		),
+		gradientTo: 'to-[#FF4785]/50',
 	},
 	'Celebrate (Joi)': {
 		icon: (
@@ -210,6 +238,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-[7.3rem] sm:w-[8rem]"
 			/>
 		),
+		gradientTo: 'to-fuchsia-300/40',
 	},
 	'Spotify Web API': {
 		icon: (
@@ -219,6 +248,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-spotify-green/45',
 	},
 	'Spotify Web Playback SDK': {
 		icon: (
@@ -228,6 +258,7 @@ const techMap: Record<TechName, { icon: React.ReactNode }> = {
 				className="w-20 sm:w-24"
 			/>
 		),
+		gradientTo: 'to-spotify-green/45',
 	},
 };
 

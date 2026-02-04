@@ -15,6 +15,7 @@ const TechStack = ({ technologies }: { technologies: TechName[] }) => {
 						<TechTile
 							key={name}
 							icon={techDetails?.icon}
+							gradientTo={techDetails?.gradientTo}
 							name={name}
 						/>
 					);
