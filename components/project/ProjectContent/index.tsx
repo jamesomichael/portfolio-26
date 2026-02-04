@@ -8,7 +8,7 @@ const ProjectContent = ({
 	description?: React.ReactNode;
 }) => {
 	return (
-		<div>
+		<div className="flex flex-col gap-3">
 			{headline && (
 				<h1 className="pb-3 text-3xl sm:text-4xl font-georama font-bold font-stretch-135% text-white">
 					{headline}
