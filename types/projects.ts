@@ -1,3 +1,5 @@
+import type { TechName } from './tech';
+
 interface ProjectBranding {
 	projectTile: {
 		backgroundGradient?: string;
@@ -36,5 +38,6 @@ export interface Project {
 	headline: string;
 	description?: string;
 	externalLinks: ProjectExternalLink[];
+	techStack?: TechName[];
 	media?: ProjectMedia;
 }

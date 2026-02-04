@@ -19,7 +19,8 @@ const Project = () => {
 		);
 	}
 
-	const { branding, externalLinks, headline, description, media } = data;
+	const { branding, externalLinks, headline, description, techStack, media } =
+		data;
 	return (
 		<div className="h-full bg-slate-900">
 			<ProjectContainer
@@ -28,6 +29,7 @@ const Project = () => {
 				externalLinks={externalLinks}
 				headline={headline}
 				description={description}
+				techStack={techStack}
 				images={media?.images}
 			/>
 		</div>
