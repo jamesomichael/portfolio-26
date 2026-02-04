@@ -6,7 +6,7 @@ const Landing = () => {
 	return (
 		<Section>
 			<div className="h-screen flex justify-center items-center">
-				<div className="flex flex-col sm:flex-row sm:gap-5 font-georama text-center leading-tight uppercase sm:wrap-break-word text-[2.7rem] sm:text-6xl md:text-7xl lg:text-8xl text-neutral-200 font-extralight">
+				<div className="flex flex-col sm:flex-row sm:gap-5 font-georama text-center leading-none uppercase sm:wrap-break-word text-[2.7rem] sm:text-6xl md:text-7xl lg:text-8xl text-neutral-200 font-extralight">
 					<StretchText
 						text="James"
 						className="inline-block font-stretch-110%"
