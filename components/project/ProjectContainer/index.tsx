@@ -6,7 +6,6 @@ import ProjectContent from '../ProjectContent';
 import TechStack from '../TechStack';
 
 import type { ProjectExternalLink, ProjectImages } from '@/types/projects';
-import type { TechName } from '@/types/tech';
 
 const ProjectContainer = ({
 	backgroundGradient = 'from-transparent to-slate-400 via-slate-400',
@@ -22,7 +21,7 @@ const ProjectContainer = ({
 	externalLinks?: ProjectExternalLink[];
 	headline?: string;
 	description?: React.ReactNode;
-	techStack?: TechName[];
+	techStack?: string[];
 	images?: ProjectImages;
 }) => {
 	const allImages = [...(images.desktop ?? []), ...(images.mobile ?? [])];

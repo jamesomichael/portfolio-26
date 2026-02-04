@@ -38,6 +38,6 @@ export interface Project {
 	headline: string;
 	description?: React.ReactNode;
 	externalLinks?: ProjectExternalLink[];
-	techStack?: TechName[];
+	techStack?: string[];
 	media?: ProjectMedia;
 }
