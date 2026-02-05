@@ -5,7 +5,13 @@ import FullscreenButton from '../FullscreenButton';
 import NavButton from '../NavButton';
 import GalleryImage from '../GalleryImage';
 
-const ImageGallery = ({ images = [] }: { images: string[] }) => {
+const ImageGallery = ({
+	projectName,
+	images = [],
+}: {
+	projectName: string;
+	images: string[];
+}) => {
 	const formattedImages = images.map((imageUrl) => ({
 		original: imageUrl,
 		thumbnail: imageUrl,
@@ -15,9 +21,11 @@ const ImageGallery = ({ images = [] }: { images: string[] }) => {
 			items={formattedImages}
 			showThumbnails={false}
 			autoPlay={true}
+			lazyLoad={true}
+			infinite={true}
 			slideDuration={750}
-			slideInterval={5000}
-			showBullets={true}
+			slideInterval={7500}
+			// showBullets={true}
 			renderPlayPauseButton={(onClick, isPlaying) => (
 				<PlayPauseButton
 					key="play-pause-button"
@@ -46,7 +54,9 @@ const ImageGallery = ({ images = [] }: { images: string[] }) => {
 					position="right"
 				/>
 			)}
-			renderItem={(item) => <GalleryImage imageUrl={item.original} />}
+			renderItem={(item) => (
+				<GalleryImage alt={projectName} imageUrl={item.original} />
+			)}
 		/>
 	);
 };

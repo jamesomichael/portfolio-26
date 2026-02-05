@@ -24,6 +24,7 @@ const Project = () => {
 	return (
 		<div className="h-full bg-slate-900">
 			<ProjectContainer
+				name={name}
 				backgroundGradient={branding?.projectPage?.backgroundGradient}
 				logo={branding?.projectPage?.logo}
 				externalLinks={externalLinks}

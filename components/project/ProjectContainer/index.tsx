@@ -8,6 +8,7 @@ import TechStack from '../TechStack';
 import type { ProjectExternalLink, ProjectImages } from '@/types/projects';
 
 const ProjectContainer = ({
+	name,
 	backgroundGradient = 'from-transparent to-slate-400 via-slate-400',
 	logo,
 	externalLinks = [],
@@ -16,6 +17,7 @@ const ProjectContainer = ({
 	techStack = [],
 	images = { desktop: [], mobile: [] },
 }: {
+	name: string;
 	backgroundGradient?: string;
 	logo: React.ReactNode;
 	externalLinks?: ProjectExternalLink[];
@@ -34,7 +36,7 @@ const ProjectContainer = ({
 				<div className="relative z-40 max-w-7xl mx-auto py-3 sm:py-4 px-4 sm:px-6 flex flex-col gap-4">
 					<div className="py-4">{logo}</div>
 					{allImages.length > 0 && (
-						<ImageGallery images={allImages} />
+						<ImageGallery projectName={name} images={allImages} />
 					)}
 					<div className="grid md:grid-cols-[auto_1fr] gap-6">
 						<ExternalLinks links={externalLinks} />
