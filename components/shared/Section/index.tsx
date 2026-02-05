@@ -16,14 +16,15 @@ const Section = ({
 	className?: string;
 	children: React.ReactNode;
 }) => {
+	const colours = colourMap[background];
 	return (
-		<section className={`min-h-fit ${colourMap[background]} ${className}`}>
+		<section className={`min-h-fit ${colours.background} ${className}`}>
 			<div className="max-w-7xl mx-auto px-6 sm:px-8">
 				{title && (
 					<div className="h-24 sm:h-32 flex items-center">
 						<StretchText
 							text={title}
-							className="text-blue-400 uppercase font-georama leading-none font-extrabold text-3xl sm:text-5xl font-stretch-115%"
+							className={`${colours.heading} uppercase font-georama leading-none font-extrabold text-3xl sm:text-5xl font-stretch-115%`}
 							probability={0.15}
 						/>
 					</div>
