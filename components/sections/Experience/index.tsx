@@ -7,15 +7,18 @@ const Experience = () => {
 		<Section title="Experience" background="light">
 			{experience.map(({ companyName, logo, roles }) => {
 				return (
-					<div key={companyName}>
-						<div className="px-8 flex flex-col justify-center items-center">
+					<div
+						key={companyName}
+						className="flex flex-col gap-10 sm:gap-12"
+					>
+						<div className="px-8 flex flex-col justify-center items-center bg-[#CCFF33] rounded-2xl w-fit mx-auto ring-4 ring-neutral-800">
 							<img
 								src={logo}
 								alt={companyName}
-								className="w-72 lg:w-80"
+								className="w-64 lg:w-74"
 							/>
 						</div>
-						<div className="flex flex-col gap-20">
+						<div className="flex flex-col gap-10 sm:gap-12">
 							{roles.map(({ title, period, description }) => {
 								// return (
 								// 	<div
@@ -45,7 +48,6 @@ const Experience = () => {
 											<span className="font-urbanist font-semibold text-slate-500 text-sm md:text-base">
 												{period}
 											</span>
-											<div></div>
 										</div>
 										<div className="font-urbanist flex flex-col gap-4 text-sm sm:text-base lg:text-lg">
 											{description}
