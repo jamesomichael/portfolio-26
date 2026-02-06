@@ -26,7 +26,7 @@ const Projects = () => {
 					projects={featuredProjects}
 					parentRef={ref}
 				/>
-				<OtherProjectsGrid projects={otherProjects} />
+				<OtherProjectsGrid projects={otherProjects} parentRef={ref} />
 			</div>
 		</Section>
 	);
