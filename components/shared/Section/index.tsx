@@ -18,7 +18,9 @@ const Section = ({
 }) => {
 	const colours = colourMap[background];
 	return (
-		<section className={`min-h-fit ${colours.background} ${className}`}>
+		<section
+			className={`min-h-fit ${colours.background} ${className} overflow-hidden`}
+		>
 			<div className="max-w-7xl mx-auto px-6 sm:px-8">
 				{title && (
 					<div className="h-24 sm:h-32 flex items-center">
