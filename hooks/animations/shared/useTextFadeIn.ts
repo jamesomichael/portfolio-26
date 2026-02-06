@@ -1,0 +1,35 @@
+import { useEffect, RefObject } from 'react';
+import gsap from 'gsap';
+
+const useTextFadeIn = (
+	parentRef: RefObject<HTMLDivElement | null>,
+	{ duration = 1.5, stagger = 0.1 } = {},
+	scrub = false,
+) => {
+	useEffect(() => {
+		const elements = parentRef?.current?.querySelectorAll(
+			'.gsap-animate, h1, li, span:not(.gsap-ignore-text), p:not(.gsap-ignore-text)',
+		);
+		if (elements && elements.length > 0) {
+			gsap.fromTo(
+				elements,
+				{ opacity: 0, y: 25 },
+				{
+					opacity: 1,
+					y: 0,
+					duration,
+					stagger,
+					ease: 'power4.out',
+					scrollTrigger: {
+						trigger: parentRef.current,
+						start: 'top 70%',
+						end: 'top 45%',
+						scrub,
+					},
+				},
+			);
+		}
+	}, []);
+};
+
+export default useTextFadeIn;
