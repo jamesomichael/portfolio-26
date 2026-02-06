@@ -1,4 +1,4 @@
-import useLoader from '@/hooks/useLoader';
+import useLoader from '@/hooks/animations/shared/useLoader';
 
 const Loader = ({ withLogo = true }) => {
 	const { fontsReady, wrapperRef, refs } = useLoader();

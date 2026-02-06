@@ -1,4 +1,4 @@
-import useStretchText from '@/hooks/useStretchText';
+import useStretchText from '@/hooks/animations/shared/useStretchText';
 
 const StretchText = ({
 	text,
@@ -13,7 +13,7 @@ const StretchText = ({
 }) => {
 	const refs = useStretchText({ delay, probability });
 	return (
-		<div className={className}>
+		<div className={`gsap-animate ${className}`}>
 			{text.split('').map((char, i) => (
 				<span
 					key={i}
