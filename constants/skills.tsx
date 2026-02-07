@@ -2,7 +2,7 @@ export default {
 	frontend: [
 		{
 			name: 'HTML5',
-			gradientTo: 'to-orange-950',
+			gradientTo: 'to-[#F16529]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -26,7 +26,7 @@ export default {
 		},
 		{
 			name: 'CSS3',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1572B6]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -58,7 +58,7 @@ export default {
 		},
 		{
 			name: 'JavaScript',
-			gradientTo: 'to-yellow-950',
+			gradientTo: 'to-[#F0DB4F]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -74,7 +74,7 @@ export default {
 		},
 		{
 			name: 'React',
-			gradientTo: 'to-cyan-950',
+			gradientTo: 'to-[#58C4DC]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<g fill="#61DAFB">
@@ -86,12 +86,12 @@ export default {
 		},
 		{
 			name: 'Next.js',
-			gradientTo: 'to-black',
+			gradientTo: 'to-white/70',
 			icon: <img src="/tech/nextjs.svg" alt="Next.js" className="w-24" />,
 		},
 		{
 			name: 'Tailwind CSS',
-			gradientTo: 'to-cyan-950',
+			gradientTo: 'to-[#38BDF8]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -103,12 +103,12 @@ export default {
 		},
 		{
 			name: 'Redux',
-			gradientTo: 'to-purple-950',
+			gradientTo: 'to-[#764ABC]',
 			icon: <img src="/tech/redux.svg" alt="Redux" className="w-24" />,
 		},
 		{
 			name: 'Zustand',
-			gradientTo: 'to-amber-950',
+			gradientTo: 'to-[#443E38]',
 			icon: (
 				<img src="/tech/zustand.svg" alt="Zustand" className="w-24" />
 			),
@@ -117,7 +117,7 @@ export default {
 	backend: [
 		{
 			name: 'Node.js',
-			gradientTo: 'to-lime-950',
+			gradientTo: 'to-[#417E38]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -129,7 +129,7 @@ export default {
 		},
 		{
 			name: 'TypeScript',
-			gradientTo: 'to-sky-950',
+			gradientTo: 'to-[#3178C6]',
 			icon: (
 				<img
 					src="/tech/typescript.png"
@@ -140,7 +140,7 @@ export default {
 		},
 		{
 			name: 'Express',
-			gradientTo: 'to-neutral-900',
+			gradientTo: 'to-neutral-100/80',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -152,19 +152,19 @@ export default {
 		},
 		{
 			name: 'Jest',
-			gradientTo: 'to-rose-950',
+			gradientTo: 'to-[#99424F]',
 			icon: <img src="/tech/jest.svg" alt="Jest" className="w-24" />,
 		},
 		{
 			name: 'OpenAPI',
-			gradientTo: 'to-green-950',
+			gradientTo: 'to-[#68A338]',
 			icon: (
 				<img src="/tech/openapi.svg" alt="OpenAPI" className="w-24" />
 			),
 		},
 		{
 			name: 'Python',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#3670A0]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<linearGradient
@@ -226,7 +226,7 @@ export default {
 		},
 		{
 			name: 'Java',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#3A75B0]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -256,7 +256,7 @@ export default {
 	databases: [
 		{
 			name: 'MySQL',
-			gradientTo: 'to-cyan-950',
+			gradientTo: 'to-[#3E6E93]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -268,7 +268,7 @@ export default {
 		},
 		{
 			name: 'MongoDB',
-			gradientTo: 'to-lime-950',
+			gradientTo: 'to-[#00ED64]',
 			icon: (
 				<img
 					src="/tech/mongodb.svg"
@@ -279,7 +279,7 @@ export default {
 		},
 		{
 			name: 'Google Cloud Platform',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -303,14 +303,14 @@ export default {
 		},
 		{
 			name: 'BigQuery',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<img src="/tech/bigquery.svg" alt="BigQuery" className="w-24" />
 			),
 		},
 		{
 			name: 'Cloud Functions',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<img
 					src="/tech/cloud-functions.svg"
@@ -321,7 +321,7 @@ export default {
 		},
 		{
 			name: 'Kubernetes',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<img
 					src="/tech/kubernetes.svg"
@@ -332,7 +332,7 @@ export default {
 		},
 		{
 			name: 'Spanner',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<img
 					src="/tech/cloud-spanner.svg"
@@ -343,7 +343,7 @@ export default {
 		},
 		{
 			name: 'Firestore',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<img
 					src="/tech/firestore.svg"
@@ -354,19 +354,19 @@ export default {
 		},
 		{
 			name: 'Pub/Sub',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1F64D3]',
 			icon: <img src="/tech/pubsub.svg" alt="Pub/Sub" className="w-24" />,
 		},
 	],
 	tools: [
 		{
 			name: 'Docker',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1D63ED]',
 			icon: <img src="/tech/docker.svg" alt="Docker" className="w-16" />,
 		},
 		{
 			name: 'Git',
-			gradientTo: 'to-orange-950',
+			gradientTo: 'to-[#F05133]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -378,12 +378,12 @@ export default {
 		},
 		{
 			name: 'GitHub',
-			gradientTo: 'to-neutral-900',
+			gradientTo: 'to-[#3A3094]',
 			icon: <img src="/tech/github.svg" alt="GitHub" className="w-24" />,
 		},
 		{
 			name: 'GitLab',
-			gradientTo: 'to-amber-950',
+			gradientTo: 'to-[#FC6D26]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
@@ -407,14 +407,14 @@ export default {
 		},
 		{
 			name: 'Zendesk',
-			gradientTo: 'to-emerald-950',
+			gradientTo: 'to-[#C7E86B]',
 			icon: (
 				<img src="/tech/zendesk.png" alt="Zendesk" className="w-24" />
 			),
 		},
 		{
 			name: 'Jira',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1868DB]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<defs>
@@ -460,7 +460,7 @@ export default {
 		},
 		{
 			name: 'Confluence',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#1868DB]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<defs>
@@ -504,7 +504,7 @@ export default {
 		},
 		{
 			name: 'Postman',
-			gradientTo: 'to-orange-950',
+			gradientTo: 'to-[#FF6C37]',
 			icon: (
 				<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 					<path
@@ -524,12 +524,12 @@ export default {
 		},
 		{
 			name: 'Trello',
-			gradientTo: 'to-blue-950',
+			gradientTo: 'to-[#0065FF]',
 			icon: <img src="/tech/trello.svg" alt="Trello" className="w-24" />,
 		},
 		{
 			name: 'Visual Studio Code',
-			gradientTo: 'to-sky-950',
+			gradientTo: 'to-[#3889FD]',
 			icon: (
 				<img
 					src="/tech/vscode.png"
@@ -540,7 +540,7 @@ export default {
 		},
 		{
 			name: 'Slack',
-			gradientTo: 'to-violet-950',
+			gradientTo: 'to-[#611F69]',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
