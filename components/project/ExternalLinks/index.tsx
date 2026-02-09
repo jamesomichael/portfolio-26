@@ -2,7 +2,7 @@ import { useRef } from 'react';
 
 import ExternalLink from '../ExternalLink';
 
-import useLinksFadeIn from '@/hooks/project/useLinksFadeIn';
+import useLinksFadeIn from '@/hooks/animations/project/useLinksFadeIn';
 
 import type { ProjectExternalLink } from '@/types/projects';
 
