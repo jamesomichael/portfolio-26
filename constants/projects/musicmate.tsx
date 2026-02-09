@@ -98,7 +98,6 @@ const musicmate: Project = {
 		images: {
 			desktop: [
 				'/projects/musicmate/artist-fontaines-dc.jpg',
-				'/projects/musicmate/login-cropped.jpg',
 				'/projects/musicmate/album-arctic-monkeys.jpg',
 				'/projects/musicmate/album-fontaines-dc.jpg',
 				'/projects/musicmate/single-jungle.jpg',
@@ -118,10 +117,10 @@ const musicmate: Project = {
 				'/projects/musicmate/search-results-artists-nirvana.jpg',
 				'/projects/musicmate/search-results-playlists-nirvana.jpg',
 				'/projects/musicmate/search-results-tracks-nirvana.jpg',
+				'/projects/musicmate/login-cropped.jpg',
 				// '/projects/musicmate/search-wolf-alice.jpg',
 			],
 			mobile: [
-				'/projects/musicmate/mob/login_mob.jpg',
 				'/projects/musicmate/mob/album-linkin-park_mob.jpg',
 				'/projects/musicmate/mob/album-kaytra_mob.jpg',
 				'/projects/musicmate/mob/single-jungle_mob.jpg',
@@ -142,6 +141,7 @@ const musicmate: Project = {
 				'/projects/musicmate/mob/search-results-tracks-qotsa_mob.jpg',
 				'/projects/musicmate/mob/player-wolf-alice_mob.jpg',
 				'/projects/musicmate/mob/player-gorillaz_mob.jpg',
+				'/projects/musicmate/mob/login_mob.jpg',
 			],
 		},
 	},

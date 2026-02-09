@@ -134,15 +134,15 @@ const vault: Project = {
 		images: {
 			desktop: [
 				'/projects/vault/vault-items.png',
-				'/projects/vault/new-user.png',
-				'/projects/vault/create-user-form.png',
-				'/projects/vault/user-selection-1.png',
-				'/projects/vault/locked.png',
 				'/projects/vault/home.png',
 				'/projects/vault/create-item-form.png',
 				'/projects/vault/create-generator.png',
-				'/projects/vault/user-selection-2.png',
 				'/projects/vault/generator.png',
+				'/projects/vault/new-user.png',
+				'/projects/vault/create-user-form.png',
+				'/projects/vault/user-selection-1.png',
+				'/projects/vault/user-selection-2.png',
+				'/projects/vault/locked.png',
 				// '/projects/vault/favourites.png',
 				// '/projects/vault/search.png',]
 			],

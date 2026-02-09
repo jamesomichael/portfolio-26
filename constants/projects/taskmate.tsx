@@ -72,17 +72,17 @@ const taskmate: Project = {
 		images: {
 			desktop: [
 				'/projects/taskmate/board.jpg',
-				'/projects/taskmate/login.jpg',
-				'/projects/taskmate/home.jpg',
 				'/projects/taskmate/card.jpg',
+				'/projects/taskmate/home.jpg',
 				'/projects/taskmate/settings.jpg',
+				'/projects/taskmate/login.jpg',
 			],
 			mobile: [
-				'/projects/taskmate/login_mob.jpg',
-				'/projects/taskmate/home_mob.jpg',
 				'/projects/taskmate/board_mob.jpg',
 				'/projects/taskmate/card_mob.jpg',
+				'/projects/taskmate/home_mob.jpg',
 				'/projects/taskmate/settings_mob.jpg',
+				'/projects/taskmate/login_mob.jpg',
 			],
 		},
 	},
