@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import ImageGallery from '@/components/shared/gallery/ImageGallery';
 import ExternalLinks from '../ExternalLinks';
 import ProjectContent from '../ProjectContent';
 import TechStack from '../TechStack';
+
+import useImageFadeIn from '@/hooks/animations/shared/useImageFadeIn';
 
 import type { ProjectExternalLink, ProjectImages } from '@/types/projects';
 
@@ -26,7 +28,11 @@ const ProjectContainer = ({
 	techStack?: string[];
 	images?: ProjectImages;
 }) => {
+	const logoRef = useRef(null);
+	useImageFadeIn(logoRef, { offsetX: 20, offsetY: 0 });
+
 	const allImages = [...(images.desktop ?? []), ...(images.mobile ?? [])];
+
 	return (
 		<>
 			<div
@@ -34,7 +40,9 @@ const ProjectContainer = ({
 			>
 				<div className="absolute inset-0 bg-black/80"></div>
 				<div className="relative z-40 max-w-7xl mx-auto py-3 sm:py-4 px-4 sm:px-6 flex flex-col gap-4">
-					<div className="py-4">{logo}</div>
+					<div ref={logoRef} className="py-4">
+						{logo}
+					</div>
 					{allImages.length > 0 && (
 						<ImageGallery projectName={name} images={allImages} />
 					)}

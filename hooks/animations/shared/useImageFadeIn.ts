@@ -9,6 +9,8 @@ const useImageFadeIn = (
 		start = 'top 70%',
 		end = 'top 45%',
 		ease = 'power4.out',
+		offsetX = 0,
+		offsetY = 20,
 	} = {},
 	scrub = false,
 ) => {
@@ -16,9 +18,10 @@ const useImageFadeIn = (
 		const el = ref.current;
 		gsap.fromTo(
 			el,
-			{ opacity: 0, y: 25 },
+			{ opacity: 0, x: offsetX, y: offsetY },
 			{
 				opacity: 1,
+				x: 0,
 				y: 0,
 				duration,
 				stagger,

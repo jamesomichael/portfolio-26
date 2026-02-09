@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
+
+import useTextFadeIn from '@/hooks/animations/shared/useTextFadeIn';
 
 const ProjectContent = ({
 	headline,
@@ -7,8 +9,10 @@ const ProjectContent = ({
 	headline?: string;
 	description?: React.ReactNode;
 }) => {
+	const ref = useRef(null);
+	useTextFadeIn(ref);
 	return (
-		<div className="flex flex-col gap-3">
+		<div ref={ref} className="flex flex-col gap-3">
 			{headline && (
 				<h1 className="pb-3 text-3xl sm:text-4xl font-georama font-bold font-stretch-135% text-white">
 					{headline}
