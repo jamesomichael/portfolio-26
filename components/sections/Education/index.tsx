@@ -9,7 +9,11 @@ const Education = () => {
 	const parentRef = useRef(null);
 	const imageRef = useRef(null);
 	useTextFadeIn(parentRef, { start: 'top 45%', end: 'top 20%' });
-	useImageFadeIn(imageRef, { start: 'top 70%', end: 'top 60%', duration: 2 });
+	useImageFadeIn(imageRef, {
+		start: 'top 70%',
+		end: 'top 60%',
+		duration: 2,
+	});
 	return (
 		<Section background="dark" title="Education">
 			<div
