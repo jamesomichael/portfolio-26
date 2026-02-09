@@ -3,7 +3,13 @@ import gsap from 'gsap';
 
 const useTextFadeIn = (
 	parentRef: RefObject<HTMLDivElement | null>,
-	{ duration = 1.5, stagger = 0.1 } = {},
+	{
+		duration = 1.5,
+		stagger = 0.1,
+		start = 'top 70%',
+		end = 'top 45%',
+		ease = 'power4.out',
+	} = {},
 	scrub = false,
 ) => {
 	useEffect(() => {
@@ -19,11 +25,11 @@ const useTextFadeIn = (
 					y: 0,
 					duration,
 					stagger,
-					ease: 'power4.out',
+					ease,
 					scrollTrigger: {
 						trigger: parentRef.current,
-						start: 'top 70%',
-						end: 'top 45%',
+						start,
+						end,
 						scrub,
 					},
 				},
