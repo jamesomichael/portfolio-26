@@ -43,15 +43,20 @@ const ProjectContainer = ({
 					<div ref={logoRef} className="py-4">
 						{logo}
 					</div>
-					{allImages.length > 0 && (
-						<ImageGallery projectName={name} images={allImages} />
-					)}
-					<div className="grid md:grid-cols-[auto_1fr] gap-6">
-						<ExternalLinks links={externalLinks} />
-						<ProjectContent
-							headline={headline}
-							description={description}
-						/>
+					<div className="flex flex-col gap-6">
+						{allImages.length > 0 && (
+							<ImageGallery
+								projectName={name}
+								images={allImages}
+							/>
+						)}
+						<div className="grid md:grid-cols-[auto_1fr] gap-6">
+							<ExternalLinks links={externalLinks} />
+							<ProjectContent
+								headline={headline}
+								description={description}
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
