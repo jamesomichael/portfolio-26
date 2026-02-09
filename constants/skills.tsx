@@ -86,7 +86,7 @@ export default {
 		},
 		{
 			name: 'Next.js',
-			gradientTo: 'to-white/70',
+			gradientTo: 'to-white/60',
 			icon: <img src="/tech/nextjs.svg" alt="Next.js" className="w-24" />,
 		},
 		{
@@ -140,7 +140,7 @@ export default {
 		},
 		{
 			name: 'Express',
-			gradientTo: 'to-neutral-100/80',
+			gradientTo: 'to-neutral-100/50',
 			icon: (
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 					<path
