@@ -4,6 +4,7 @@ import gsap from 'gsap';
 const useLinksFadeIn = (
 	refs: RefObject<(HTMLAnchorElement | null)[]>,
 	parentRef: RefObject<HTMLDivElement | null>,
+	{ start = 'top 70%', end = 'top 45%' } = {},
 	scrub = false,
 ) => {
 	useEffect(() => {
@@ -13,13 +14,13 @@ const useLinksFadeIn = (
 			{
 				opacity: 1,
 				x: 0,
-				duration: 1,
+				duration: 0.5,
 				stagger: 0.2,
-				ease: 'power4.out',
+				ease: 'power4.inOut',
 				scrollTrigger: {
 					trigger: parentRef.current,
-					start: 'top 80%',
-					end: 'top 50%',
+					start,
+					end,
 					scrub,
 				},
 			},
