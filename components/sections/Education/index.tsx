@@ -3,18 +3,21 @@ import { useRef } from 'react';
 import Section from '@/components/shared/Section';
 
 import useTextFadeIn from '@/hooks/animations/shared/useTextFadeIn';
+import useImageFadeIn from '@/hooks/animations/shared/useImageFadeIn';
 
 const Education = () => {
-	const ref = useRef(null);
-	useTextFadeIn(ref);
+	const parentRef = useRef(null);
+	const imageRef = useRef(null);
+	useTextFadeIn(parentRef, { start: 'top 45%', end: 'top 20%' });
+	useImageFadeIn(imageRef, { start: 'top 70%', end: 'top 60%', duration: 2 });
 	return (
 		<Section background="dark" title="Education">
 			<div
-				ref={ref}
+				ref={parentRef}
 				className="lg:pt-5 lg:pb-10 flex flex-col lg:grid lg:grid-cols-[auto_1fr] gap-6 lg:gap-8"
 			>
 				<div className="flex justify-center items-center lg:justify-end lg:items-start">
-					<div className="bg-[#242f60] rounded-xl">
+					<div ref={imageRef} className="bg-[#242f60] rounded-2xl">
 						<img
 							src="/swansea-university-logo-horizontal.svg"
 							alt="Swansea University"
