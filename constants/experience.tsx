@@ -13,7 +13,7 @@ export default [
 					<>
 						<p>
 							I progressed into a more senior role in 2021, where
-							– in addition to my previous work – I began leading
+							- in addition to my previous work - I began leading
 							daily stand-ups for the support team, as well as
 							biweekly retrospectives.
 						</p>

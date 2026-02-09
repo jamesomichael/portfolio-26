@@ -32,10 +32,9 @@ const Greeting = () => {
 							This portfolio is just one example of my work!
 						</p>
 						<p>
-							I&apos;m now looking to embrace a new challenge
-							&mdash; one which allows me to combine my strong
-							backend skills with my growing frontend
-							capabilities.
+							I&apos;m now looking to embrace a new challenge -
+							one which allows me to combine my strong backend
+							skills with my growing frontend capabilities.
 						</p>
 						<Link
 							href="mailto:hello@jamesmichael.dev"
