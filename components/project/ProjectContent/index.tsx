@@ -12,7 +12,7 @@ const ProjectContent = ({
 	const ref = useRef(null);
 	useTextFadeIn(ref);
 	return (
-		<div ref={ref} className="flex flex-col gap-3">
+		<div ref={ref} className="flex flex-col gap-3 select-text">
 			{headline && (
 				<h1 className="pb-3 text-3xl sm:text-4xl font-georama font-bold font-stretch-135% text-white">
 					{headline}

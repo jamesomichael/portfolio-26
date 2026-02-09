@@ -38,10 +38,10 @@ const Role = ({
 				alt={companyName}
 				className={`w-34 lg:w-40 mt-2 mb-4 sm:mb-6 ${shouldInvertLogo ? 'invert' : ''}`}
 			/>
-			<h1 className="vertical-timeline-element-title font-georama text-xl sm:text-2xl font-stretch-130% font-bold text-slate-900">
+			<h1 className="vertical-timeline-element-title select-text font-georama text-xl sm:text-2xl font-stretch-130% font-bold text-slate-900">
 				{title}
 			</h1>
-			<div className="font-urbanist flex flex-col text-slate-900">
+			<div className="font-urbanist select-text flex flex-col text-slate-900">
 				{description}
 			</div>
 		</VerticalTimelineElement>

@@ -27,7 +27,7 @@ export default function RootLayout({
 			</head>
 			<LenisProvider>
 				<body className="antialiased">
-					<div className="bg-slate-950">{children}</div>
+					<div className="bg-slate-950 select-none">{children}</div>
 					<Footer />
 				</body>
 			</LenisProvider>
