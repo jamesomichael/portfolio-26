@@ -46,7 +46,15 @@ const portfolio: Project = {
 			</p>
 		</>
 	),
-	techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Lenis', 'GSAP'],
+	techStack: [
+		'Next.js',
+		'TypeScript',
+		'Tailwind CSS',
+		'Lenis',
+		'GSAP',
+		'React Image Gallery',
+		'React Vertical Timeline',
+	],
 };
 
 export default portfolio;
