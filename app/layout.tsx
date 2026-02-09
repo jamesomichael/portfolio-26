@@ -8,8 +8,26 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
 	title: "Portfolio '26 - James Michael",
-	description: 'Software Engineer from Wales, UK.',
+	description: 'Full-Stack Software Engineer from Wales, UK.',
 	metadataBase: new URL('https://jamesmichael.dev'),
+	openGraph: {
+		type: 'website',
+		url: 'https://jamesmichael.dev',
+		siteName: "Portfolio '26 - James Michael",
+		images: [
+			{
+				url: '/portfolio-26-og.png',
+				width: 1200,
+				height: 630,
+				alt: "Portfolio '26 - James Michael",
+			},
+		],
+	},
+	icons: {
+		icon: '/favicon.ico',
+		shortcut: '/favicon-32x32.png',
+		apple: '/apple-touch-icon.png',
+	},
 };
 
 export default function RootLayout({
