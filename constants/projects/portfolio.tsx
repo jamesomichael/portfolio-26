@@ -46,6 +46,12 @@ const portfolio: Project = {
 			</p>
 		</>
 	),
+	externalLinks: [
+		{
+			type: 'github',
+			url: 'https://github.com/jamesomichael/portfolio-26',
+		},
+	],
 	techStack: [
 		'Next.js',
 		'TypeScript',
