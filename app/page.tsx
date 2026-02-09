@@ -4,6 +4,7 @@ import Landing from '@/components/sections/Landing';
 import SkillsMarquee from '@/components/sections/skills/SkillsMarquee';
 import Projects from '@/components/sections/projects/Projects';
 import Experience from '@/components/sections/experience/Experience';
+import Education from '@/components/sections/Education';
 import Loader from '@/components/shared/Loader';
 
 import useWindowLoaded from '@/hooks/useWindowLoaded';
@@ -21,6 +22,7 @@ const Home = () => {
 			<SkillsMarquee />
 			<Projects />
 			<Experience />
+			<Education />
 		</>
 	);
 };
