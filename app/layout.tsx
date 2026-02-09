@@ -1,4 +1,5 @@
 import './globals.css';
+import 'react-vertical-timeline-component/style.min.css';
 
 import LenisProvider from '@/components/shared/LenisProvider';
 import Footer from '@/components/shared/Footer';
