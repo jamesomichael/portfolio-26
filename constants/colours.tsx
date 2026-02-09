@@ -4,7 +4,7 @@ export default {
 		heading: 'text-blue-400',
 	},
 	light: {
-		background: 'bg-white',
+		background: 'bg-slate-200',
 		heading: 'text-slate-950',
 	},
 	accent: {
