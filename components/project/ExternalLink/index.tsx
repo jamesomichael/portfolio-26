@@ -18,7 +18,7 @@ const ExternalLink = forwardRef<HTMLAnchorElement, PropTypes>(
 			<a
 				ref={ref}
 				href={url}
-				className="bg-white rounded-lg h-11 sm:h-12 font-georama font-stretch-110% grid grid-cols-[auto_1fr] items-center gap-2 font-semibold px-3 py-2 text-sm sm:text-base hover:bg-white/80 transition-colors duration-150"
+				className="bg-white rounded-lg h-11 sm:h-12 font-urbanist font-bold grid grid-cols-[auto_1fr] items-center gap-2 px-3 py-2 text-base sm:text-lg hover:bg-white/80 transition-colors duration-150"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
