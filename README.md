@@ -2,6 +2,10 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6e5106e9-8cef-4c69-8f98-ecad73d43466/deploy-status)](https://jamesmichael.dev)
 
+My 2026 portfolio, designed to showcase my work, skills, and experience.
+
+Built with Next.js, Tailwind CSS, and TypeScript, it also utilises GSAP for animations and Lenis for smooth scrolling.
+
 ## **Tech Stack**
 
 - **Next.js (App Router)**
