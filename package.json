@@ -1,7 +1,9 @@
 {
 	"name": "portfolio-26",
 	"version": "0.1.0",
+	"description": "My 2026 portfolio.",
 	"private": true,
+	"author": "James Michael",
 	"scripts": {
 		"type-check": "tsc --noEmit",
 		"dev": "next dev",
