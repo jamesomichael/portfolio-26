@@ -5,6 +5,7 @@ import { FaArrowLeft } from 'react-icons/fa6';
 
 import ProjectsDropdown from '../ProjectsDropdown';
 import NavbarLogo from '../NavbarLogo';
+import ProjectsMenu from '../ProjectsMenu';
 
 import useNavbar from '@/hooks/useNavbar';
 
@@ -27,8 +28,13 @@ const Navbar = () => {
 			<div className="flex items-center justify-center">
 				<NavbarLogo />
 			</div>
-			<div className="hidden sm:flex items-center justify-end relative">
-				<ProjectsDropdown />
+			<div className="flex items-center gap-2 justify-end">
+				<div className="lg:hidden">
+					<ProjectsMenu />
+				</div>
+				<div className="hidden lg:block">
+					<ProjectsDropdown />
+				</div>
 			</div>
 		</div>
 	);
