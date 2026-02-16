@@ -113,6 +113,28 @@ export default {
 				<img src="/tech/zustand.svg" alt="Zustand" className="w-24" />
 			),
 		},
+		{
+			name: 'Storybook',
+			gradientTo: 'to-[#FF4785]',
+			icon: (
+				<img
+					src="/tech/storybook.svg"
+					alt="Storybook"
+					className="w-24"
+				/>
+			),
+		},
+		{
+			name: 'React Testing Library',
+			gradientTo: 'to-[#E33332]',
+			icon: (
+				<img
+					src="/tech/react-testing-library.svg"
+					alt="React Testing Library"
+					className="w-24"
+				/>
+			),
+		},
 	],
 	backend: [
 		{
@@ -154,6 +176,11 @@ export default {
 			name: 'Jest',
 			gradientTo: 'to-[#99424F]',
 			icon: <img src="/tech/jest.svg" alt="Jest" className="w-24" />,
+		},
+		{
+			name: 'Joi',
+			gradientTo: 'to-[#007FFF]',
+			icon: <img src="/tech/joi.png" alt="Joi" className="w-24" />,
 		},
 		{
 			name: 'OpenAPI',
