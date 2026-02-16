@@ -59,6 +59,7 @@ const portfolio: Project = {
 		'Lenis',
 		'GSAP',
 		'React Image Gallery',
+		'React Fast Marquee',
 		'React Vertical Timeline',
 	],
 };
