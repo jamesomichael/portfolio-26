@@ -58,6 +58,8 @@ const portfolio: Project = {
 		'Tailwind CSS',
 		'Lenis',
 		'GSAP',
+		'React Testing Library',
+		'Jest',
 		'React Image Gallery',
 		'React Fast Marquee',
 		'React Vertical Timeline',
