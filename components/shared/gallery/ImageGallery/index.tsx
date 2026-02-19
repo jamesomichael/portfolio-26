@@ -1,3 +1,5 @@
+import 'react-image-gallery/styles/image-gallery.css';
+
 import ReactImageGallery from 'react-image-gallery';
 
 import PlayPauseButton from '../PlayPauseButton';
