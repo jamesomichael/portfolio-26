@@ -22,6 +22,7 @@ const TechTile = forwardRef<HTMLDivElement, PropTypes>(
 		return (
 			<div
 				ref={ref}
+				data-testid="tech-tile"
 				className={`relative rounded-xl sm:rounded-2xl bg-linear-to-b from-slate-900 ${gradientTo} h-44 w-40 sm:h-48 sm:w-44 grid grid-rows-[1fr_auto]`}
 			>
 				<div className="absolute inset-0 bg-linear-to-b from-transparent to-black/45 rounded-xl sm:rounded-2xl"></div>
