@@ -41,8 +41,8 @@ const musicmate: Project = {
 	headline: 'A web-based Spotify clone.',
 	description: (
 		<>
-			<p className="my-2 flex items-center gap-2 text-black font-georama font-stretch-120% font-medium text-sm sm:text-base md:text-sm lg:text-base bg-yellow-500 p-4 rounded-xl">
-				<GoAlertFill className="w-6 h-6" />
+			<p className="text-pretty my-2 flex items-center gap-2 text-black font-georama font-stretch-120% font-medium text-sm sm:text-base md:text-sm lg:text-base bg-linear-to-b from-yellow-300 to-yellow-500 p-4 rounded-xl">
+				<GoAlertFill className="w-7 h-7 sm:w-6 sm:h-6" />
 				Access to musicmate is currently by invitation only.
 			</p>
 			<p>
