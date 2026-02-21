@@ -1,7 +1,7 @@
 import { RefObject, useEffect } from 'react';
 import gsap from 'gsap';
 
-const useOtherProjectsFade = (
+const useProjectsFadeIn = (
 	refs: RefObject<HTMLAnchorElement[]>,
 	parentRef: RefObject<HTMLDivElement | null>,
 ) => {
@@ -11,18 +11,19 @@ const useOtherProjectsFade = (
 
 		const animation = gsap.fromTo(
 			refs.current,
-			{ opacity: 0, y: 15 },
+			{ opacity: 0, y: 60 },
 			{
 				opacity: 1,
 				y: 0,
-				duration: 0.5,
-				stagger: 0.8,
-				ease: 'power4.out',
+				duration: 0.575,
+				stagger: 0.1,
+				ease: 'sine.out',
 				scrollTrigger: {
 					trigger: parentRef.current,
-					start: 'top 30%',
-					end: 'bottom 50%',
-					scrub: true,
+					start: 'top 55%',
+					// end: 'bottom 40%',
+					// scrub: true,
+					// markers: false,
 				},
 			},
 		);
@@ -33,4 +34,4 @@ const useOtherProjectsFade = (
 	}, [parentRef, refs]);
 };
 
-export default useOtherProjectsFade;
+export default useProjectsFadeIn;
