@@ -41,7 +41,7 @@ const Education = () => {
 							2013 - 2017
 						</span>
 					</div>
-					<div className="text-left font-urbanist flex flex-col gap-4 text-sm sm:text-base text-white">
+					<div className="text-pretty text-left font-urbanist flex flex-col gap-4 text-sm sm:text-base text-white">
 						<p>
 							Over the course of my four years at university, I
 							gained practical experience with a range of

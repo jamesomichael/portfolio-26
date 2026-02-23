@@ -19,7 +19,7 @@ const ProjectContent = ({
 				</h1>
 			)}
 			{description && (
-				<div className="text-slate-100 flex flex-col gap-3 font-urbanist text-sm sm:text-base lg:text-lg">
+				<div className="text-pretty text-slate-100 flex flex-col gap-3 font-urbanist text-base lg:text-lg">
 					{description}
 				</div>
 			)}

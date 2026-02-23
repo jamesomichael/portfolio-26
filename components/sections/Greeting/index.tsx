@@ -22,7 +22,7 @@ const Greeting = () => {
 					<h1 className="font-georama leading-none font-stretch-150% font-extrabold text-blue-400 text-[2.8rem] sm:text-7xl lg:text-8xl">
 						Hello! 👋
 					</h1>
-					<div className="font-urbanist flex flex-col gap-3 font-stretch-110% text-sm sm:text-base">
+					<div className="text-pretty font-urbanist flex flex-col gap-3 font-stretch-110% text-sm sm:text-base">
 						<p className="font-bold text-base sm:text-lg">
 							I&apos;m James, a Software Engineer based in the UK.
 						</p>
