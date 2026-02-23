@@ -3,7 +3,7 @@ export default [
 		companyName: 'Cloud.IQ',
 		logo: '/experience/cloudiq-white.svg',
 		shouldInvertLogo: true,
-		companyColour: '#492B82',
+		companyColour: '#CF3',
 		period: '2018 - 2023',
 		roles: [
 			{

@@ -49,3 +49,23 @@
 .image-gallery-bullet {
 	flex: 0 0 auto;
 }
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+	padding: 0rem 1rem 1rem !important;
+}
+
+@media (min-width: 640px) and (max-width: 1170px) {
+	.vertical-timeline-element-content .vertical-timeline-element-date {
+		padding: 0rem 1.5rem 1.5rem !important;
+	}
+}
+
+.vertical-timeline-element-content .role-description p {
+	font-size: 0.875rem !important;
+}
+
+@media (min-width: 640px) {
+	.vertical-timeline-element-content .role-description p {
+		font-size: 1rem !important;
+	}
+}
