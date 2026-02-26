@@ -183,6 +183,11 @@ export default {
 			icon: <img src="/tech/joi.png" alt="Joi" className="w-24" />,
 		},
 		{
+			name: 'JWT',
+			gradientTo: 'to-neutral-200',
+			icon: <img src="/tech/jwt.svg" alt="JWT" className="w-24" />,
+		},
+		{
 			name: 'OpenAPI',
 			gradientTo: 'to-[#68A338]',
 			icon: (
@@ -294,6 +299,11 @@ export default {
 			),
 		},
 		{
+			name: 'SQLite',
+			gradientTo: 'to-[#399BD9]',
+			icon: <img src="/tech/sqlite.svg" alt="SQLite" className="w-24" />,
+		},
+		{
 			name: 'MongoDB',
 			gradientTo: 'to-[#00ED64]',
 			icon: (
@@ -347,12 +357,23 @@ export default {
 			),
 		},
 		{
-			name: 'Kubernetes',
+			name: 'Cloud Scheduler',
+			gradientTo: 'to-[#1F64D3]',
+			icon: (
+				<img
+					src="/tech/cloud-scheduler.svg"
+					alt="Cloud Scheduler"
+					className="w-24"
+				/>
+			),
+		},
+		{
+			name: 'Google Kubernetes Engine',
 			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<img
 					src="/tech/kubernetes.svg"
-					alt="Kubernetes"
+					alt="Google Kubernetes Engine"
 					className="w-24"
 				/>
 			),
@@ -369,12 +390,12 @@ export default {
 			),
 		},
 		{
-			name: 'Firestore',
+			name: 'Cloud Firestore',
 			gradientTo: 'to-[#1F64D3]',
 			icon: (
 				<img
 					src="/tech/firestore.svg"
-					alt="Firestore"
+					alt="Cloud Firestore"
 					className="w-24"
 				/>
 			),
@@ -383,6 +404,28 @@ export default {
 			name: 'Pub/Sub',
 			gradientTo: 'to-[#1F64D3]',
 			icon: <img src="/tech/pubsub.svg" alt="Pub/Sub" className="w-24" />,
+		},
+		{
+			name: 'Google Compute Engine',
+			gradientTo: 'to-[#1F64D3]',
+			icon: (
+				<img
+					src="/tech/compute-engine.svg"
+					alt="Google Compute Engine"
+					className="w-24"
+				/>
+			),
+		},
+		{
+			name: 'Google Cloud Storage',
+			gradientTo: 'to-[#1F64D3]',
+			icon: (
+				<img
+					src="/tech/cloud-storage.svg"
+					alt="Google Cloud Storage"
+					className="w-24"
+				/>
+			),
 		},
 	],
 	tools: [
@@ -436,7 +479,7 @@ export default {
 			name: 'Zendesk',
 			gradientTo: 'to-[#C7E86B]',
 			icon: (
-				<img src="/tech/zendesk.png" alt="Zendesk" className="w-24" />
+				<img src="/tech/zendesk.svg" alt="Zendesk" className="w-24" />
 			),
 		},
 		{
@@ -551,8 +594,8 @@ export default {
 		},
 		{
 			name: 'Trello',
-			gradientTo: 'to-[#0065FF]',
-			icon: <img src="/tech/trello.svg" alt="Trello" className="w-24" />,
+			gradientTo: 'to-[#008EE2]',
+			icon: <img src="/tech/trello.png" alt="Trello" className="w-24" />,
 		},
 		{
 			name: 'Visual Studio Code',
