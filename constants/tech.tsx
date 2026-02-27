@@ -103,7 +103,7 @@ const techMap: Record<
 		gradientTo: 'to-white/40',
 	},
 	Vite: {
-		icon: <img src="/tech/vite.svg" alt="Vite" className="w-18 sm:w-22" />,
+		icon: <img src="/tech/vite.svg" alt="Vite" className="w-24 sm:w-28" />,
 		gradientTo: 'to-[#9954FF]/50',
 	},
 	Motion: {
