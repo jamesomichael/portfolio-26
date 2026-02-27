@@ -116,6 +116,7 @@ const vault: Project = {
 		'Storybook',
 		'React Testing Library',
 		'Jest',
+		'Vite',
 		'Node.js',
 		'Express',
 		'SQLite',

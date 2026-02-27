@@ -67,7 +67,14 @@ const taskmate: Project = {
 			</p>
 		</>
 	),
-	techStack: ['Next.js', 'Tailwind CSS', 'Supabase', 'Zustand', 'dnd kit'],
+	techStack: [
+		'Next.js',
+		'Tailwind CSS',
+		'Supabase',
+		'Zustand',
+		'dnd kit',
+		'Resend',
+	],
 	media: {
 		images: {
 			desktop: [
