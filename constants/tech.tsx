@@ -159,7 +159,7 @@ const techMap: Record<
 			<img
 				src="/tech/mongoose.svg"
 				alt="Mongoose"
-				className="w-20 sm:w-28"
+				className="w-26 sm:w-28"
 			/>
 		),
 		gradientTo: 'to-[#FF5E5E]/55',
