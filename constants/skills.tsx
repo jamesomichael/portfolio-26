@@ -174,7 +174,7 @@ export default {
 		},
 		{
 			name: 'Jest',
-			gradientTo: 'to-[#99424F]',
+			gradientTo: 'to-[#15C213]',
 			icon: <img src="/tech/jest.svg" alt="Jest" className="w-24" />,
 		},
 		{

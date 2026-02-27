@@ -26,4 +26,6 @@ export type TechName =
 	| 'Storybook'
 	| 'Celebrate (Joi)'
 	| 'Spotify Web API'
-	| 'Spotify Web Playback SDK';
+	| 'Spotify Web Playback SDK'
+	| 'Resend'
+	| 'Vite';

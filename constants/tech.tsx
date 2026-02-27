@@ -96,6 +96,16 @@ const techMap: Record<
 		),
 		gradientTo: 'to-neutral-300/30',
 	},
+	Resend: {
+		icon: (
+			<img src="/tech/resend.svg" alt="Resend" className="w-28 sm:w-32" />
+		),
+		gradientTo: 'to-white/40',
+	},
+	Vite: {
+		icon: <img src="/tech/vite.svg" alt="Vite" className="w-18 sm:w-22" />,
+		gradientTo: 'to-[#9954FF]/50',
+	},
 	Motion: {
 		icon: (
 			<img src="/tech/motion.png" alt="Motion" className="w-20 sm:w-24" />
@@ -126,7 +136,7 @@ const techMap: Record<
 				className="h-20 sm:h-20"
 			/>
 		),
-		gradientTo: 'to-[#00ED64]/40',
+		gradientTo: 'to-[#00ED64]/45',
 	},
 	Jest: {
 		icon: (
@@ -136,7 +146,7 @@ const techMap: Record<
 				className="w-[4.8rem] sm:w-[5.5rem]"
 			/>
 		),
-		gradientTo: 'to-[#99424F]/60',
+		gradientTo: 'to-[#15C213]/55',
 	},
 	JWT: {
 		icon: (
@@ -152,7 +162,7 @@ const techMap: Record<
 				className="w-20 sm:w-28"
 			/>
 		),
-		gradientTo: 'to-[#850000]/60',
+		gradientTo: 'to-[#FF5E5E]/55',
 	},
 	OpenAPI: {
 		icon: (
