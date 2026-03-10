@@ -24,7 +24,8 @@ const Greeting = () => {
 					</h1>
 					<div className="text-pretty font-urbanist flex flex-col gap-3 font-stretch-110% text-sm sm:text-base">
 						<p className="font-bold text-base sm:text-lg">
-							I&apos;m James, a Software Engineer based in the UK.
+							I&apos;m James, a full-stack software engineer based
+							in the UK.
 						</p>
 						<p>
 							With six years of industry experience, I specialise
@@ -35,17 +36,17 @@ const Greeting = () => {
 						<p>
 							My background is primarily backend-focused, with
 							particular emphasis on JavaScript (Node.js,
-							TypeScript) and databases (MySQL, Firestore,
-							MongoDB). Recently, I&apos;ve been delving deeper
-							into the frontend world, gaining experience with
-							technologies like React, Next.js, Tailwind CSS, and
-							Redux. This portfolio is just one example of my
-							work!
+							TypeScript), databases (MySQL, Firestore, MongoDB),
+							and Google Cloud Platform. Recently, I&apos;ve been
+							delving deeper into the frontend world, gaining
+							hands-on experience with technologies such as React,
+							Next.js, Tailwind CSS, and Redux. This portfolio is
+							just one example of my work!
 						</p>
 						<p>
 							I&apos;m now looking to embrace a new challenge -
-							one which allows me to combine my strong backend
-							skills with my growing frontend capabilities.
+							one where I can combine my strong backend expertise
+							with my growing frontend capabilities.
 						</p>
 						<Link
 							href="mailto:hello@jamesmichael.dev"
