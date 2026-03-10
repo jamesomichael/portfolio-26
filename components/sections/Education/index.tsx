@@ -44,9 +44,8 @@ const Education = () => {
 					<div className="text-pretty text-left font-urbanist flex flex-col gap-4 text-sm sm:text-base text-white">
 						<p>
 							During my four years at university, I gained
-							practical experience with a range of programming
-							languages, such as Java, C++, C#, Python, and
-							JavaScript.
+							practical experience with programming languages such
+							as Java, C++, C#, Python, and JavaScript.
 						</p>
 						<p>I studied numerous modules, including:</p>
 						<ul className="list-inside list-disc pl-5">
