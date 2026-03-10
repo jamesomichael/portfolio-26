@@ -35,7 +35,7 @@ const Education = () => {
 							BSc (Hons) Computer Science
 						</span>
 						<span className="font-urbanist font-medium text-lg sm:text-xl lg:text-2xl text-slate-200">
-							First Class Honours
+							First-Class Honours
 						</span>
 						<span className="font-urbanist font-semibold text-slate-400">
 							2013 - 2017
@@ -43,12 +43,12 @@ const Education = () => {
 					</div>
 					<div className="text-pretty text-left font-urbanist flex flex-col gap-4 text-sm sm:text-base text-white">
 						<p>
-							Over the course of my four years at university, I
-							gained practical experience with a range of
-							programming languages, including Java, C++, C#,
-							Python, and JavaScript.
+							During my four years at university, I gained
+							practical experience with a range of programming
+							languages, such as Java, C++, C#, Python, and
+							JavaScript.
 						</p>
-						<p>I studied numerous modules, most notably:</p>
+						<p>I studied numerous modules, including:</p>
 						<ul className="list-inside list-disc pl-5">
 							<li>
 								<i>Algorithms</i>
@@ -69,15 +69,26 @@ const Education = () => {
 						</ul>
 						<p>
 							For my dissertation and final-year project,{' '}
-							<i>&apos;How Happy Are We?&apos;</i>, I developed an
+							<i>&quot;How Happy Are We?&quot;</i>, I developed an
 							Android mobile application that explored personal
-							sentiment analysis using Twitter data.
+							sentiment analysis using Twitter data. It adapted{' '}
+							<a
+								href="http://dmrussell.net/CHI2010/docs/p287.pdf"
+								rel="noopener noreferrer"
+								target="_blank"
+								className="italic hover:underline"
+							>
+								ADI Kramer's happiness equation
+							</a>{' '}
+							to categorise followed accounts into one of five
+							groups, ultimately forming a sentiment scale ranging
+							from 'Very Negative' to 'Very Positive'.
 						</p>
 						<p>
-							This degree has given me a strong foundation in the
-							fundamentals of programming, problem-solving, and
-							software design - skills I have continued to build
-							on throughout my career.
+							This degree provided me with a strong foundation in
+							the fundamentals of programming, problem-solving,
+							software design, and testing practices - skills I
+							have continued to build upon throughout my career.
 						</p>
 					</div>
 				</div>

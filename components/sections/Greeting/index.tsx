@@ -38,8 +38,9 @@ const Greeting = () => {
 							TypeScript) and databases (MySQL, Firestore,
 							MongoDB). Recently, I&apos;ve been delving deeper
 							into the frontend world, gaining experience with
-							technologies like React, Next.js, and Tailwind CSS.
-							This portfolio is just one example of my work!
+							technologies like React, Next.js, Tailwind CSS, and
+							Redux. This portfolio is just one example of my
+							work!
 						</p>
 						<p>
 							I&apos;m now looking to embrace a new challenge -
