@@ -1,8 +1,8 @@
 import './globals.css';
 import 'react-vertical-timeline-component/style.min.css';
 
+import AppLayout from '@/layouts/AppLayout';
 import LenisProvider from '@/components/shared/LenisProvider';
-import Footer from '@/components/shared/Footer';
 
 import type { Metadata } from 'next';
 
@@ -43,12 +43,11 @@ export default function RootLayout({
 					rel="stylesheet"
 				/>
 			</head>
-			<LenisProvider>
-				<body className="antialiased select-none">
-					<div className="bg-slate-950">{children}</div>
-					<Footer />
-				</body>
-			</LenisProvider>
+			<body className="antialiased select-none">
+				<LenisProvider>
+					<AppLayout>{children}</AppLayout>
+				</LenisProvider>
+			</body>
 		</html>
 	);
 }
