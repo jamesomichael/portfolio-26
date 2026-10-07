@@ -7,13 +7,13 @@ import Section from '../../shared/Section';
 import StretchText from '../../shared/StretchText';
 
 import useScrollIconFade from '@/hooks/animations/landing/useScrollIconFade';
-import useLandingFade from '@/hooks/animations/landing/useLandingFade';
+// import useLandingFade from '@/hooks/animations/landing/useLandingFade';
 import useTextFadeIn from '@/hooks/animations/shared/useTextFadeIn';
 
 const Landing = () => {
 	const ref = useRef(null);
 	const scrollIconRef = useScrollIconFade(ref);
-	useLandingFade(ref);
+	// useLandingFade(ref);
 	useTextFadeIn(ref, { duration: 3.5 });
 	return (
 		<Section>

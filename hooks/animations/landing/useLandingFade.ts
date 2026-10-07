@@ -16,7 +16,7 @@ const useLandingFade = (parentRef: RefObject<HTMLDivElement | null>) => {
 					trigger: parentRef.current,
 					start: '0 0',
 					end: 'bottom 40%',
-					scrub: true,
+					// scrub: true,
 				},
 			},
 		);

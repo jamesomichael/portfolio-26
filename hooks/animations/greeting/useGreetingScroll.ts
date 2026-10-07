@@ -15,7 +15,7 @@ const useGreetingScroll = (parentRef: RefObject<HTMLDivElement | null>) => {
 					trigger: el,
 					start: 'top 100%',
 					end: 'bottom 75%',
-					scrub: true,
+					// scrub: true,
 				},
 			},
 		);
