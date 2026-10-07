@@ -28,32 +28,32 @@ const Greeting = () => {
 							in the UK.
 						</p>
 						<p>
-							With six years of industry experience, I specialise
-							in web development and have worked with a range of
-							languages, frameworks, and tools throughout my
-							career.
+							With six years of industry experience in web
+							development, I&apos;ve worked with a range of
+							languages, frameworks and tools.
 						</p>
 						<p>
-							My background is primarily backend-focused, with
-							particular emphasis on JavaScript (Node.js,
-							TypeScript), databases (MySQL, Firestore, MongoDB),
-							and Google Cloud Platform. Recently, I&apos;ve been
-							delving deeper into the frontend world, gaining
-							hands-on experience with technologies such as React,
-							Next.js, Tailwind CSS, and Redux. This portfolio is
-							just one example of my work!
+							My background is in backend development, where I've
+							worked extensively with JavaScript, TypeScript,
+							Node.js, RESTful APIs, SQL/NoSQL databases and
+							Google Cloud Platform. More recently, I&apos;ve
+							worked to expand my frontend skills and have gained
+							significant hands-on experience with React, Next.js,
+							Tailwind CSS and Redux through a portfolio of
+							personal projects. You'll find them all here!
 						</p>
 						<p>
-							I&apos;m now looking to embrace a new challenge -
-							one where I can combine my strong backend expertise
-							with my growing frontend capabilities.
+							I&apos;m now ready for my next challenge, one where
+							I can combine my backend expertise with my growing
+							frontend capabilities.
 						</p>
 						<Link
 							href="mailto:hello@jamesmichael.dev"
 							className="font-georama font-stretch-125% flex items-center gap-2 font-bold text-blue-400 sm:text-lg hover:underline"
 						>
 							<MdMail className="hidden sm:block text-3xl" />
-							Interested in collaborating? Please do get in touch!
+							Interested in working together? Please do get in
+							touch!
 						</Link>
 					</div>
 				</div>
